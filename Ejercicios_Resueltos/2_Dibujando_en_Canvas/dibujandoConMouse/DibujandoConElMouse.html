@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Dibuja con el mouse</title>
+</head>
+<br>
+  <h1> Aqui puedes dibujar haciendo clicks con el mouse. </h1>
+  <h2>Pixelart</h2>
+  <canvas width="900" height="600" id="pixeles"></canvas> </br>
+  <input type="color" id="color" oninput= "defcolor(this.value);">
+  <input type="range" id="grosor" oninput="defgrosor(this.value);" min="1" max="7" value="1">
+   
+  <script src="click.js"></script>
+</body>
+</html>
